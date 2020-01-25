@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Main View</title>
 </head>
 <body>
-	<h1>Seccion de ayuda</h1>
+	
+	<?php require 'views/header.php'; ?>
+	<div id="main">
+		<h1 class="center">Pagina de ayuda</h1>
+	</div>
+
+		
+
+
+<?php require 'views/footer.php'; ?>
 </body>
 </html>

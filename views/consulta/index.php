@@ -7,7 +7,7 @@
 	
 	<?php require 'views/header.php'; ?>
 	<div id="main">
-		<h1 class="center error"><?php echo $this->mensaje; ?></h1>
+		<h1 class="center">Consulta seccion</h1>
 	</div>
 
 		

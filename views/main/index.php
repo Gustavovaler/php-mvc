@@ -5,7 +5,14 @@
 </head>
 <body>
 	
-	<h1>Esta es la vista del controlador main</h1>
+	<?php require 'views/header.php'; ?>
+	<div id="main">
+		<h1 class="center">Bienvenido al sitio</h1>
+	</div>
 
+		
+
+
+<?php require 'views/footer.php'; ?>
 </body>
 </html>
