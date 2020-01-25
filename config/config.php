@@ -5,7 +5,7 @@
  define('DB', 'base1');
  define('USER', 'root');
  define('PASSWORD', '');
- define('CHARSET', 'utf-8');
+ define('CHARSET', 'utf8mb4');
 
 
 

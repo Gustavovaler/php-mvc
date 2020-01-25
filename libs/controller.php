@@ -8,12 +8,11 @@ class Controller{
 	}
 
 	function render($nombre){
-		require 'views/'.$nombre . '.php';
-		
+		require 'views/'.$nombre . '.php';		
 
 	}
 
-	 function loadModel(){
+	 function loadModel($model){
 
 	 	$url = 'models/'.$model.'model.php';
 

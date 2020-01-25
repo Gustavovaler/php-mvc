@@ -12,7 +12,7 @@ class App{
 			$archivoController = 'controllers/main.php';
 			require_once($archivoController);
 			$controller = new Main();
-			$controller>loadModel('main');
+			$controller->loadModel('main');
 			return false;
 		}
 
